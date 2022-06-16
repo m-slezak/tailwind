@@ -1,14 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tailwind Landing Page</title>
-    <link rel="stylesheet" href="./css/main.css">
-</head>
-<body>
-    <h1 class="text-3xl">HelloWorld</h1>
-
-</body>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="relative container p-6 mx-auto">
+      <!-- flex container -->
+      <div class="flex justify-between items-center">
+        <!-- logo -->
+        <div class="pt-2"><img src="./img/logo.svg" /></div>
+        <div class="hidden md:flex space-x-6">
+          <a href="#" class="hover:text-darkGrayishBlue">Pricing</a>
+          <a href="#" class="hover:text-darkGrayishBlue">Product</a>
+          <a href="#" class="hover:text-darkGrayishBlue">About</a>
+          <a href="#" class="hover:text-darkGrayishBlue">Carrers</a>
+          <a href="#" class="hover:text-darkGrayishBlue">Community</a>
+        </div>
+        <!-- button -->
+        <a
+          href=""
+          class="p-3 pt-2 px-6 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight"
+          >Get Started</a
+        >
+      </div>
+    </nav>
+  </body>
 </html>
